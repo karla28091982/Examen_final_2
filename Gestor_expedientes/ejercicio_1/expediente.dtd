@@ -1,0 +1,13 @@
+<!ELEMENT expediente (cliente, fechaInicio, fechafin?, procuradores)>
+<!ATTLIST expediente id NMTOKEN #REQUIRED>
+<!ATTLIST expediente estado (en_trámite | finalizado | archivado) #REQUIRED>
+<!ELEMENT cliente (dni, nombre, dirección)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT dirección (#PCDATA)>
+<!ELEMENT fechaInicio (#PCDATA)>
+<!ELEMENT fechaFin (#PCDATA)>
+<!ELEMENT estado (#PCDATA)>
+<!ELEMENT procuradores (procurador, procurador?, procurador?)>
+<!ELEMENT procurador (dni, nombre, dirección)>
+b

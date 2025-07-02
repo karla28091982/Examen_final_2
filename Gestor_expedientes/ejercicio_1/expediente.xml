@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<expediente>  
+    <id>EXP19822</id>
+    <fechainicio>10-04-2024</fechainicio>
+    <fechafin>31-122025</fechafin>
+    <estado>finalizado</estado>
+    <cliente>
+        <dni>60818269</dni>
+        <nombre>felipe quintero</nombre>
+        <direccion>Calle orense 6</direccion>
+    </cliente>
+    <procurador>
+            <dni>7876276</dni>
+            <nombre>Andres medina</nombre>
+            <direccion>calle donoso cortes 4</direccion>
+    </procurador>   
+    </expediente>

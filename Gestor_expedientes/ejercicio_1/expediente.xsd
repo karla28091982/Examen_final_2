@@ -1,0 +1,32 @@
+ <xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+<xs:element name="expediente">          
+    <xs:complexType>
+            <xs:sequence>
+            <xs:element name="id" type="xs:int"/>
+            <xs:element name="cliente">
+            <xs:complexType>
+                 <xs:sequence>
+                    <xs:element name="dni" type="xs:string"/>
+                     <xs:element name="nombre" type="xs:string"/>
+                     <xs:element name="direccion" type="xs:string"/>
+                     </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+    <xs:element name="fechainicio" type="xs:string"/>
+    <xs:element name="fechafin" type="xs:string"/>
+    <xs:element name="estado">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="ent_tramite"/>
+                <xs:enumeration value="finalizado"/>
+                <xs:enumeration value="archivado"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+    <xs:element name="procuradores">
+     <xs:complexType>
+        <xs:sequence>
+            <xs:element name="procurador" maxOccurs="3" minOccurs="1">
+                <xs:complexType>
+                    
