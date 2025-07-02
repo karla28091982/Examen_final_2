@@ -1,0 +1,20 @@
+{
+    "misiones": [
+        {
+            "nombremision": "apolo2",
+            "empresa": "cecotec",
+            "tripulacion": ["angelica quintero","ernesto caviedes","andres nuñez"],
+            "vehiculo": {"nombre": "spark gt", "tipo": "carrusel","capacidad":4},
+            "destino":{"planeta": "saturno", "coordenadas": [45.3, -179.8]},
+            "en_curso": true
+        },
+        {
+            "nombremision": "apolo3",
+            "empresa": "spacex",
+            "tripulacion": ["john doe", "jane smith","alice johnson"],
+            "vehiculo": {"nombre": "falcon 9", "tipo": "cohete", "capacidad": 6},
+            "destino": {"planeta": "marte", "coordenadas": [12.5, -45.0]},
+            "en_curso": false
+        }
+    ]
+}
